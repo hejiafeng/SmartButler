@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="360" >
+    <!--pivotX     属性为动画相对于物件的X坐标的开始位置-->
+    <!--pivotY     属性为动画相对于物件的Y坐标的开始位置-->
+
+    <!--说明:        以上两个属性值 从0%-100%中取值-->
+    <!--50%为物件的X或Y方向坐标上的中点位置-->
+    <shape
+        android:innerRadiusRatio="3"
+        android:shape="ring"
+        android:thicknessRatio="8"
+        android:useLevel="false" >
+        <gradient
+            android:centerColor="#ffffff"
+            android:centerY="0.50"
+            android:endColor="#1E90FF"
+            android:startColor="@color/color_white"
+            android:type="sweep"
+            android:useLevel="false" />
+    </shape>
+</rotate>

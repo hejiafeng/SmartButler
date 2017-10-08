@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <EditText
+        android:id="@+id/ed_corporation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sf"
+        android:hint="@string/corporlation"
+        />
+    <EditText
+        android:id="@+id/ed_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="974434636637"
+        android:hint="@string/kd_number"
+        />
+    <Button
+        android:id="@+id/btn_kd_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_kd_sure"
+        android:background="@drawable/button_bg"
+        />
+
+    <ListView
+        android:id="@+id/lv_courier"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>
